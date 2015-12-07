@@ -16,9 +16,9 @@ function draw() {
   ellipse(50, 50, 80, 80);
     fill(0);
   textSize(32);
-text("word", 10, 30);
+text("Hello", 50, 30);
 fill(0, 102, 153);
-text("word", 10, 60);
+text("how", 50, 60);
 fill(0, 102, 153, 51);
-text("word", 10, 90);
+text("are you", 50, 90);
 }
