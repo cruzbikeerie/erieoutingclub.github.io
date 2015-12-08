@@ -3,9 +3,13 @@ var  meeting_date = [  "no Month", "January 20", "February 17", "March 17", "Apr
 var meeting_location = ["no Month", "at the Sight Center", "at the Sight Center", "at the Sight Center", "at the Sight Center", "at the Sight Center", "at the  Rotary Pavilion", "at the  Rotary Pavilion", "at the  Rotary Pavilion", "at the Sight Center", "at the Sight Center", "at the Sight Center", " at the Beechwood Restaurant"]
 function setup() {
 	// Create the canvas
-  createCanvas(720, 400);
- background(#33CC00);
-  noStroke();
+	background(#33CC00);
+	createCanvas(720, 400);
+	print("Hello")
+  //noStroke();
+   ellipse(50, 50, 80, 80);
+  
+ 
   
   // Set colors
   fill(204, 101, 192, 127);
@@ -13,16 +17,8 @@ function setup() {
 	
 }
 
-function draw() {
-  ellipse(50, 50, 80, 80);
-    fill(0);
-  textSize(32);
-text("Hello", 150, 30);
-fill(0, 102, 153);
-text("how", 150, 60);
-fill(0, 102, 153, 51);
-text("are you", 150, 90);
-}
+function draw() {}
+  
 
 function first_square() {}
 
