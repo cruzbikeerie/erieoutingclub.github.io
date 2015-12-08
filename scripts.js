@@ -4,11 +4,12 @@ var meeting_location = ["no Month", "at the Sight Center", "at the Sight Center"
 function setup() {
 	// Create the canvas
   createCanvas(720, 400);
-  background(200);
+ background(#33CC00);
+  noStroke();
   
   // Set colors
   fill(204, 101, 192, 127);
-  stroke(127, 63, 120);
+  
 	
 }
 
@@ -22,3 +23,9 @@ text("how", 150, 60);
 fill(0, 102, 153, 51);
 text("are you", 150, 90);
 }
+
+function first_square() {}
+
+function first_square() {}
+
+
