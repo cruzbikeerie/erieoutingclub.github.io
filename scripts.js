@@ -3,17 +3,11 @@ var  meeting_date = [  "no Month", "January 20", "February 17", "March 17", "Apr
 var meeting_location = ["no Month", "at the Sight Center", "at the Sight Center", "at the Sight Center", "at the Sight Center", "at the Sight Center", "at the  Rotary Pavilion", "at the  Rotary Pavilion", "at the  Rotary Pavilion", "at the Sight Center", "at the Sight Center", "at the Sight Center", " at the Beechwood Restaurant"]
 function setup() {
 	print("i am working")
-  
- 
-  
-  /
-	
-}
 
 function draw() {}
   
 
-function first_square() {}
+
 
 function first_square() {}
 
