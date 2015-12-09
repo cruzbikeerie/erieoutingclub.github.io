@@ -18,7 +18,7 @@ function first_square() {
      stroke(255,255,0);
      fill(0);
 	 rect(30, 10,  width * .44, height);
-	  stroke(255);
+	  noStroke();
 	 textSize(17);
     text("Membership Meeting is", 45, 50);
     text(" the third Tuesday of the month", 45,75);
