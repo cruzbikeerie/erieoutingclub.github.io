@@ -18,7 +18,7 @@ function first_square() {
      stroke(255,255,0);
      fill(0);
 	 rect(30, 10,  width * .44, height);
-	  strokeWeight(5);
+	  strokeWeight(1);
 	 textSize(17);
     text("Membership Meeting is", 45, 50);
     text(" the third Tuesday of the month", 45,75);
@@ -32,7 +32,7 @@ function second_square() {
 	textFont("Georgia");
 	  fill(0,40, 255);
 	  rect(325, 10, width * .4, height);
-	  strokeWeight(0);
+	  strokeWeight(1);
 	 textSize(17);
 	  text("This month's meeting  is on", 340, 50);
   text(meeting_date[month()], 340, 75);
