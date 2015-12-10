@@ -13,7 +13,7 @@ function setup() {
 function draw() {}
 
 function first_square() {
-		textFont("Georgia");
+	textFont("Helvetica");
 	strokeWeight(2);
      stroke(255,255,0);
      fill(0);
@@ -29,7 +29,7 @@ function first_square() {
 }
 
 function second_square() {
-	textFont("Georgia");
+	textFont("Helvetica");
 	  fill(0,40, 255);
 	  rect(325, 10, width * .4, height);
 	  strokeWeight(1);
