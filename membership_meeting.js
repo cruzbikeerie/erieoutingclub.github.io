@@ -1,5 +1,5 @@
 // updated Demcember
-var  meeting_date = [  "no Month", "January 20", "February 17", "March 17", "April 21", "May 19", "June 16", "July 21", "August 18", "September 15", "October 20", "November 17", "No Meeting(Christmas Party)","January 18"];
+var  meeting_date = [  "no Month", "January 18", "February 22", "March 15", "April 19", "May 17", "June 21", "July 19", "August 16", "September 20", "October 18", "November 15", "No Meeting(Christmas Party)","January 18"];
 var meeting_location = ["no Month", "at the Sight Center", "at the Sight Center", "at the Sight Center", "at the Sight Center", "at the Sight Center", "at the  Rotary Pavilion", "at the  Rotary Pavilion", "at the  Rotary Pavilion", "at the Sight Center", "at the Sight Center", "at the Sight Center", " at the Beechwood Restaurant"]
 function setup() {
 	createCanvas(600,200);
