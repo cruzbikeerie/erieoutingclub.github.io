@@ -6,7 +6,7 @@ var person = {
     eyeColor:"blue"
 };
 function setup() {
-createCanvas(400, 800);
+createCanvas(800, 400);
   background(153);
   line(0, 0, width, height);
 }
