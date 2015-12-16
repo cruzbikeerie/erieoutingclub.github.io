@@ -12,5 +12,5 @@ createCanvas(900, 400);
 
 function draw() {
     fill(255,0,0);
-  rect(10,19,750, 350);
+  rect(10,19,hieght - 10, width - 10);
 }
