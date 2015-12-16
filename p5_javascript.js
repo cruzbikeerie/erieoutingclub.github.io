@@ -12,6 +12,6 @@ createCanvas(900, 400);
 }
 
 function draw() {
-  ellipse(mouseX,mouseY,80, 80);
+  rect(10,19,750, 350);
   print(person.firstName);
 }
