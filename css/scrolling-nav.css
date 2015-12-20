@@ -35,48 +35,26 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #6699FF;
+    background: #fff;
 }
 
-.calendar-section {
+.about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #FFCCFF;
-    }
-    
-    .join-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #FFCCFF;
-    }
-
-.meeting-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #FF99FF;
+    background: #eee;
 }
 
-
-.questions-section {
+.services-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #FF66FF;
+    background: #fff;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #FF33FF;
-}
-
-.test-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #F00FF;
+    background: #eee;
 }
