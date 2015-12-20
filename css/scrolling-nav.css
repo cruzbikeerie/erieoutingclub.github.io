@@ -35,21 +35,21 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #6699FF;
 }
 
 .join-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #FFCCFF;
 }
 
 .meeting-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #FF99FF;
 }
 
 
@@ -57,12 +57,19 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #eee;
+    background: #FF66FF;
 }
 
 .contact-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #fff;
+    background: #FF33FF;
+}
+
+.test-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #F00FF;
 }
