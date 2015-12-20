@@ -38,12 +38,19 @@ of those sections to manage the look and feel of the site. */
     background: #6699FF;
 }
 
-.join-section {
+.calendar-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
     background: #FFCCFF;
-}
+    }
+    
+    .join-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #FFCCFF;
+    }
 
 .meeting-section {
     height: 100%;
