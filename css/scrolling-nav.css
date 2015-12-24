@@ -21,9 +21,9 @@ html {
     padding-top: 150px;
     text-align: center;
     background: #FDF5E6;
-} 
+    } 
     
-}
+
 
 @media(min-width:767px) {
     .navbar {
@@ -140,7 +140,7 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #FFEFD5;
 }
-    }
+    
     
    
   
