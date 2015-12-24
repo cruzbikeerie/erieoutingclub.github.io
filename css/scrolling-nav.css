@@ -18,7 +18,7 @@ html {
 @media only screen and (max-width: 768px) {
  .intro-section {
     height: 100%;
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: center;
     background: #FDF5E6;
 }
@@ -43,14 +43,14 @@ html {
 
 .question-section {
     height: 100%;
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: center;
     background: #FFDAB9;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 15px;
+    padding-top: 200px;
     text-align: center;
     background: #FFEFD5;
 }
