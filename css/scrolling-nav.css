@@ -38,9 +38,12 @@ html {
 }
 
 @media screen and (min-width: 480px) {
-    body {
-        background-color: lightgreen;
-    }
+    .intro-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #FDF5E6;
+}
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
