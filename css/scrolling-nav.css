@@ -16,53 +16,11 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
-  .intro-section {
-    height: 100%;
-    padding-top:  150px 50px;
-    text-align: center;
-    background: #FDF5E6;
-}
-
-.join-section {
-    height: 100%;
-    padding-top: 150px 50px;
-    text-align: center;
-    background: #FFEFD5;
-}
-
-.calendar-section {
-    height: 100%;
-    padding-top: 150px  50px;
-    text-align: center;
-    background: #FFDAB9;
-    }
-
-.meeting-section {
-    height: 100%;
-    padding-top: 150px 50px;
-    text-align: center;
-    background: #FFEFD5;
-}
-
-.question-section {
-    height: 100%;
-    padding-top: 150px 50px;
-    text-align: center;
-    background: #FFDAB9;
-}
-
-.contact-section {
-    height: 100%;
-    padding-top: 150p 50pxx;
-    text-align: center;
-    background: #FFEFD5;
-}
-
-.contact1-section {
+ .intro-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #FFEFD5;
+    background: #FDF5E6;
 }
     
 }
@@ -81,13 +39,7 @@ html {
         padding: 0;
     }
     
-    .intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #FDF5E6;
-}
-
+   
 
 
 
