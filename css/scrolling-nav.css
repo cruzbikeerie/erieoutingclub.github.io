@@ -15,7 +15,7 @@ html {
     height: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 568px) {
  .intro-section {
     height: 100%;
     padding-top: 10px;
