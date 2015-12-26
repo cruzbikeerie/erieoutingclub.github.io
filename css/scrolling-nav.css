@@ -71,47 +71,6 @@ html {
     text-align: center;
     background: #FDF5E6;
 }
-
-.join-section {
-    height: 100%;
-    padding: 150px 50px 50px 50px
-    text-align: center;
-    background: #FFEFD5;
-}
-
-
-
-.calendar-section {
-    height: 100%;
-    padding: 15px 50px 50px 50px
-    text-align: center;
-    background: #FFDAB9;
-    }
-
-
-
-.question-section {
-    height: 100%;
-    padding: 10px 50px 50px 50px
-    text-align: center;
-    background: #FFDAB9;
-}
-
-.contact-section {
-    height: 100%;
-    padding: 200px 50px 50px 50px
-    text-align: center;
-    background: #FFEFD5;
-}
-
-.contact1-section {
-    height: 100%;
-    padding: 15px 50px 50px 50px
-    text-align: center;
-    background: #FFEFD5;
-}
-    
-}
     
 
 
