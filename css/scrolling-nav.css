@@ -16,7 +16,12 @@ html {
 }
 
 @media only screen and (max-width: 800px) {
-    tro-section {
+    
+    body {
+        background-color: lightgreen;
+    }
+    
+    .intro-section {
     height: 100%;
     padding: 10px 50px 50px 50px;
     text-align: center;
