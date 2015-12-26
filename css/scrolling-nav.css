@@ -20,18 +20,23 @@ html {
     body {
         background-color: lightgreen;
     }
-    
-    .intro-section {
+     .intro-section {
     height: 100%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #FDF5E6;
+}
+   
 }
     
     
 }
 
 @media only screen and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+    
  .intro-section {
     height: 100%;
     padding: 10px 50px 50px 50px;
