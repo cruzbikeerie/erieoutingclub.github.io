@@ -68,7 +68,7 @@ html {
 
 @media(min-width:767px) {
     .navbar {
-        padding: 30 px;
+         padding: 30px 50px 50px 50px;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -133,5 +133,5 @@ of those sections to manage the look and feel of the site. */
     padding-top: 150px;
     text-align: center;
     background: #FFEFD5;
-}
+    }
     
