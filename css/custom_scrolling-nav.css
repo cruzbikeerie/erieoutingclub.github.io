@@ -1,0 +1,108 @@
+   /* http://www.impressivewebs.com/modular-css-media-queries-sass/*/
+   
+  @media(min-width:767px) {
+    .navbar {
+        padding: 10px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+  
+   
+   .intro-section {
+    height: 100%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #FDF5E6;
+}
+
+.join-section {
+    height: 100%;
+    padding: 150px 50px 50px 50px;
+    text-align: center;
+    background: #FFEFD5;
+}
+
+
+
+.calendar-section {
+    height: 100%;
+    padding: 15px 50px 50px 50px;
+    text-align: center;
+    background: #FFDAB9;
+    }
+
+
+
+.question-section {
+    height: 100%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #FFDAB9;
+}
+
+.contact-section {
+    height: 100%;
+    padding: 200px 50px 50px 50px;
+    text-align: center;
+    background: #FFEFD5;
+}
+
+.contact1-section {
+    height: 100%;
+    padding: 15px 50px 50px 50px;
+    text-align: center;
+    background: #FFEFD5;
+}
+
+ @media screen and (max-width: 768px) {
+   
+    
+    .intro-section {
+    height: 200%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #FFEFD5;
+    
+    }
+    
+    .join-section {
+    height: 150%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: yellow;
+}
+
+
+
+.calendar-section {
+    height: 75%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #FFEFD5;
+    }
+
+
+
+.question-section {
+    height: 210%;
+    padding: 20px 50px 50px 50px;
+    text-align: center;
+    background: yellow;
+}
+
+.contact-section {
+    height: 150%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #FFEFD5;
+}
+    
+    
+    
+    }

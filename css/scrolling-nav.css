@@ -7,7 +7,6 @@
 body {
     width: 100%;
     height: 100%;
-   padding-top: 50px;
 }
 
 html {
@@ -15,84 +14,9 @@ html {
     height: 100%;
 }
 
-@media only screen and (max-width: 900px) {
-    
-    body {
-        background-color: lightgreen;
-    }
-     .intro-section {
-    height: 100%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background: #FDF5E6;
-}
-   
-}
-    
-
-
-@media only screen and (max-width: 768px) {
-    body {
-        background-color: #FDF5E6
-    }
-    
- .intro-section {
-    height: 100%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background: #FDF5E6;
-}
-
-.join-section {
-    height: 100%;
-    padding: 150px 50px 50px 50px;
-    text-align: center;
-    background: #FFEFD5;
-}
-
-
-
-.calendar-section {
-    height: 100%;
-    padding: 15px 50px 50px 50px;
-    text-align: center;
-    background: #FFDAB9;
-    }
-
-
-
-.question-section {
-    height: 100%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background: #FFDAB9;
-}
-
-.contact-section {
-    height: 100%;
-    padding: 200px 50px 50px 50px;
-    text-align: center;
-    background: #FFEFD5;
-}
-
-.contact1-section {
-    height: 100%;
-    padding: 15px 50px 50px 50px;
-    text-align: center;
-    background: #FFEFD5;
-}
-    
-}
-
-
-
-
-    
-
-
 @media(min-width:767px) {
     .navbar {
-         padding: 30px 50px 10px 50px;
+        padding: 20px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -101,10 +25,7 @@ html {
     .top-nav-collapse {
         padding: 0;
     }
-    
-   
-
-
+}
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
@@ -112,50 +33,28 @@ of those sections to manage the look and feel of the site. */
 
 .intro-section {
     height: 100%;
-      padding: 150px 50px 50px 50px;
+    padding-top: 150px;
     text-align: center;
-    background: #FDF5E6;
+    background: #fff;
 }
 
-.join-section {
-    height: 100%;
-      padding: 150px 50px 50px 50px;
-    text-align: center;
-    background: #FFEFD5;
-}
-
-.calendar-section {
-    height: 100%;
-      padding: 150px 50px 50px 50px;
-    text-align: center;
-    background: #FFDAB9;
-    }
-
-.meeting-section {
+.about-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
-    background: #FFEFD5;
+    background: #eee;
 }
 
-.question-section {
+.services-section {
     height: 100%;
-      padding: 150px 50px 50px 50px;
+    padding-top: 150px;
     text-align: center;
-    background: #FFDAB9;
+    background: #fff;
 }
 
 .contact-section {
     height: 100%;
-      padding: 150px 50px 50px 50px;
+    padding-top: 150px;
     text-align: center;
-    background: #FFEFD5;
+    background: #eee;
 }
-
-.contact1-section {
-    height: 100%;
-      padding: 15px 50px 50px 50px;
-    text-align: center;
-    background: #FFEFD5;
-    }
-    
