@@ -1,5 +1,13 @@
    /* http://www.impressivewebs.com/modular-css-media-queries-sass/*/
    
+  body {
+    width: 100%;
+    height: 100%;
+     padding: 40px 0px 0px 0px;
+}
+  
+  
+  
   @media(min-width:767px) {
     .navbar {
         padding: 10px 0;
@@ -13,45 +21,117 @@
     }
 }
   
+    /*intro-section */
    
    .intro-section {
-    height: 100%;
-    padding: 10px 50px 50px 50px;
+    height: 75%;
+    padding: 20px 50px 0px 50px;
     text-align: center;
     background: #FDF5E6;
 }
 
+ @media screen and (max-width: 768px) {
+  .intro-section {
+    height: 225%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #FFEFD5;
+    
+    }
+ 
+ 
+ }
+ 
+ @media all and (max-width: 1000px) and (min-width: 700px) { 
+ 
+  .intro-section {
+    height: 225%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: green;
+    
+}
+}
+ 
+  /* join-section */
+
 .join-section {
     height: 100%;
-    padding: 150px 50px 50px 50px;
+    padding: 20px 50px 50px 50px;
     text-align: center;
     background: #FFEFD5;
 }
 
+ @media screen and (max-width: 768px) {
+ 
+  .join-section {
+    height: 150%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: yellow;
+}
+ 
+ }
 
+ /* calendar-section*/
 
 .calendar-section {
-    height: 100%;
-    padding: 15px 50px 50px 50px;
+    height: 125%;
+    padding: 20px 50px 50px 50px;
     text-align: center;
     background: #FFDAB9;
     }
+    
+    @media screen and (max-width: 768px) {
+    .calendar-section {
+    height: 75%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #FFEFD5;
+    }
+    
+    }
 
-
+ /* question-section*/
 
 .question-section {
     height: 100%;
-    padding: 10px 50px 50px 50px;
+    padding: 20px 50px 50px 50px;
     text-align: center;
-    background: #FFDAB9;
+    background: #FDF5E6;
 }
+
+ @media screen and (max-width: 768px) {
+ .question-section {
+    height: 210%;
+    padding: 20px 50px 50px 50px;
+    text-align: center;
+    background: yellow;
+}
+ 
+ }
+ 
+ /* contact-section*/
 
 .contact-section {
     height: 100%;
-    padding: 200px 50px 50px 50px;
+    padding: 20px 50px 50px 50px;
     text-align: center;
     background: #FFEFD5;
 }
+
+@media screen and (max-width: 768px) {
+
+.contact-section {
+    height: 150%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #FFEFD5;
+}
+
+}
+
+ /* contact1-section*/
 
 .contact1-section {
     height: 100%;
@@ -60,49 +140,21 @@
     background: #FFEFD5;
 }
 
- @media screen and (max-width: 768px) {
    
     
-    .intro-section {
-    height: 200%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background: #FFEFD5;
+   
     
-    }
-    
-    .join-section {
-    height: 150%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background: yellow;
-}
+   
 
 
 
-.calendar-section {
-    height: 75%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background: #FFEFD5;
-    }
 
 
 
-.question-section {
-    height: 210%;
-    padding: 20px 50px 50px 50px;
-    text-align: center;
-    background: yellow;
-}
 
-.contact-section {
-    height: 150%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background: #FFEFD5;
-}
+
+
     
     
     
-    }
+    
