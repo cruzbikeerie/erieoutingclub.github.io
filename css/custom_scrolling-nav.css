@@ -53,7 +53,7 @@ body {
     background: #ffccff;
 }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 559px) {
   .intro-section {
     height: 225%;
     padding: 10px 50px 50px 50px;
@@ -75,6 +75,16 @@ body {
     
 }
 }
+
+@media all and (max-width: 700px) and (min-width: 600px) { 
+
+.intro-section {
+    height: 250%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background:  white;
+
+}
  
   /* join-section */
 
@@ -85,7 +95,7 @@ body {
     background: #ffcccc;
 }
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 559px) {
  
   .join-section {
     height: 150%;
@@ -106,6 +116,18 @@ body {
   }
   }
   
+ /* fix*/
+  @media all and (max-width: 700px) and (min-width: 600px) {
+  .join-section {
+    height: 200%;
+    padding: 20px 50px 50px 50px;
+    text-align: center;
+    background: #ffcccc;
+}
+  
+  
+  }
+  
   
 
  /* calendar-section*/
@@ -117,7 +139,7 @@ body {
     background: #ffcc99;
     }
     
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 559px) {
     .calendar-section {
     height: 75%;
     padding: 10px 50px 50px 50px;
@@ -134,6 +156,17 @@ body {
     text-align: center;
     background: #ff9999;
     }
+      }
+      
+     @media all and (max-width: 700px) and (min-width: 600px) {
+      
+      .calendar-section {
+    height: 170%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: yellow;
+    }
+      
       }
       
      
@@ -170,6 +203,16 @@ body {
   
   }
   
+  
+   @media all and (max-width: 700px) and (min-width: 600px) {
+    .question-section {
+    height: 230%;
+    padding: 0px 50px 50px 50px;
+    text-align: center;
+    background: #ff9966;
+   
+   }
+  
   /* meeting-section*/
 
 .meeting-section {
@@ -198,6 +241,16 @@ body {
 }
   
   }
+  
+   @media all and (max-width: 700px) and (min-width: 600px) {
+   
+   .meeting-section {
+    height: 170%;
+    padding: 20px 50px 50px 50px;
+    text-align: center;
+    background: #87AFC7;
+}
+   }
  
  
  
