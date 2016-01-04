@@ -45,7 +45,7 @@
  @media all and (max-width: 1000px) and (min-width: 700px) { 
  
   .intro-section {
-    height: 225%;
+    height: 100%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background:  #ff99ff;
@@ -75,7 +75,7 @@
  
   @media all and (max-width: 1000px) and (min-width: 700px) {
   .join-section {
-    height: 150%;
+    height: 125%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff99cc;
@@ -139,8 +139,8 @@
  
   @media all and (max-width: 1000px) and (min-width: 700px) {
   .question-section {
-    height: 210%;
-    padding: 20px 50px 50px 50px;
+    height: 180%;
+    padding: 0px 50px 50px 50px;
     text-align: center;
     background: #ff9966;
 }
