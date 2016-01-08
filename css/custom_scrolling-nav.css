@@ -55,7 +55,7 @@ body {
 
  @media screen and (max-width: 549px) {
   .intro-section {
-    height: 300%;
+    height: 325%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff66ff;
