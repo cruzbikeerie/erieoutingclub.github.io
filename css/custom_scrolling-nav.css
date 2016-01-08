@@ -79,7 +79,7 @@ body {
 @media all and (max-width: 700px) and (min-width: 550px) { 
 
 .intro-section {
-    height: 250%;
+    height: 300%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background:  white;
