@@ -254,15 +254,25 @@ body {
     background: #ffcc66;
 }
 
- @media screen and (max-width: 549px) {
+ @media screen and (max-width: 399px) {
  .question-section {
-    height: 210%;
+    height: 260%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff9966;
 }
  
  }
+ 
+  @media all and (max-width: 768px) and (min-width: 400px) {
+      .question-section {
+    height: 210%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ff9966;
+}
+     
+  }
  
   @media all and (max-width: 768px) and (min-width: 550px) {
     .question-section {
