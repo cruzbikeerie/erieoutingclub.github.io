@@ -163,7 +163,18 @@ body {
  
  }
  
-  @media all and (max-width: 1000px) and (min-width: 700px) {
+  @media all and (max-width: 767px) and (min-width: 550px) {
+  .join-section {
+    height: 200%;
+    padding: 20px 50px 50px 50px;
+    text-align: center;
+    background: #ffcccc;
+}
+  
+  
+  }
+ 
+  @media all and (max-width: 1000px) and (min-width: 768px) {
   .join-section {
     height: 125%;
     padding: 10px 50px 50px 50px;
@@ -174,16 +185,7 @@ body {
   }
   
  /* fix*/
-  @media all and (max-width: 700px) and (min-width: 550px) {
-  .join-section {
-    height: 200%;
-    padding: 20px 50px 50px 50px;
-    text-align: center;
-    background: #ffcccc;
-}
-  
-  
-  }
+ 
   
   
 
