@@ -22,7 +22,7 @@ body {
     width: 100%;
     height: 100%;
      padding: 40px 0px 0px 0px;
-     background:  #ff66ff;
+     background:  white;
 }
    
 }
@@ -47,6 +47,16 @@ body {
 }
  
  }
+ 
+  @media all and (max-width: 1200px) and (min-width: 1000px) {
+     body {
+    width: 100%;
+    height: 100%;
+     padding: 40px 0px 0px 0px;
+     background:  #ff99f;
+}
+     
+  }
 
   
   
@@ -124,7 +134,7 @@ body {
     height: 150%;
     padding: 10px 50px 50px 50px;
     text-align: center;
-    background:  #ff99ff;
+    background:   #ff99ff;
     
 }
 }
