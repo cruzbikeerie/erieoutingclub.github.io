@@ -256,7 +256,7 @@ body {
 
  @media screen and (max-width: 399px) {
  .question-section {
-    height: 260%;
+    height: 230%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff9966;
@@ -264,9 +264,9 @@ body {
  
  }
  
-  @media all and (max-width: 768px) and (min-width: 400px) {
+  @media all and (max-width: 550px) and (min-width: 400px) {
       .question-section {
-    height: 210%;
+    height: 175%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff9966;
