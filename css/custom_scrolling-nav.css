@@ -174,7 +174,7 @@ body {
   
   }
  
-  @media all and (max-width: 1000px) and (min-width: 768px) {
+  @media all and (max-width: 991px) and (min-width: 768px) {
   .join-section {
     height: 125%;
     padding: 10px 50px 50px 50px;
@@ -183,6 +183,17 @@ body {
   
   }
   }
+  
+   @media all and (max-width: 1200px) and (min-width: 992px) {
+       .join-section {
+    height: 125%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ff99cc;
+  
+  }
+      
+   }
   
  /* fix*/
  
