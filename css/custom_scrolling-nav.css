@@ -338,16 +338,26 @@ body {
     background: #ffcc33;
 }
 
-@media screen and (max-width: 549px) {
+@media screen and (max-width: 399px) {
 
 .contact-section {
-    height: 150%;
+    height: 175%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff9933;
 }
 
 }
+
+ @media all and (max-width: 767px) and (min-width: 400px) {
+    .contact-section {
+    height: 150%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ff9933;
+}
+    
+ }
 
  @media all and (max-width: 767px) and (min-width: 550px) {
  .contact-section {
