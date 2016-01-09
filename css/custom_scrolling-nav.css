@@ -219,16 +219,7 @@ body {
     
     }
     
-     @media all and (max-width: 1000px) and (min-width: 700px) {
-     .calendar-section {
-    height: 110%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background: #ff9999;
-    }
-      }
-      
-     @media all and (max-width: 700px) and (min-width: 550px) {
+     @media all and (max-width: 767px) and (min-width: 550px) {
       
       .calendar-section {
     height: 170%;
@@ -238,7 +229,17 @@ body {
     }
       
       }
+    
+     @media all and (max-width: 1200px) and (min-width: 768px) {
+     .calendar-section {
+    height: 110%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ff9999;
+    }
+      }
       
+    
      
     
     
@@ -263,7 +264,16 @@ body {
  
  }
  
-  @media all and (max-width: 1000px) and (min-width: 700px) {
+  @media all and (max-width: 768px) and (min-width: 550px) {
+    .question-section {
+    height: 260%;
+    padding: 0px 50px 50px 50px;
+    text-align: center;
+    background: #ff9966;
+   }
+      }
+ 
+  @media all and (max-width: 1200px) and (min-width: 768px) {
   .question-section {
     height: 180%;
     padding: 0px 50px 50px 50px;
@@ -274,14 +284,7 @@ body {
   }
   
   
-   @media all and (max-width: 700px) and (min-width: 550px) {
-    .question-section {
-    height: 260%;
-    padding: 0px 50px 50px 50px;
-    text-align: center;
-    background: #ff9966;
-   
-   }}
+  
   
   /* meeting-section*/
 
@@ -302,7 +305,17 @@ body {
  
  }
  
-  @media all and (max-width: 1000px) and (min-width: 700px) {
+  @media all and (max-width: 768px) and (min-width: 550px) {
+   
+   .meeting-section {
+    height: 180%;
+    padding: 20px 50px 50px 50px;
+    text-align: center;
+    background: #87AFC7;
+}
+   }
+ 
+  @media all and (max-width: 1200px) and (min-width: 768px) {
   .meeting-section {
     height: 110%;
     padding: 20px 50px 50px 50px;
@@ -312,15 +325,7 @@ body {
   
   }
   
-   @media all and (max-width: 700px) and (min-width: 550px) {
-   
-   .meeting-section {
-    height: 180%;
-    padding: 20px 50px 50px 50px;
-    text-align: center;
-    background: #87AFC7;
-}
-   }
+  
  
  
  
@@ -344,7 +349,17 @@ body {
 
 }
 
- @media all and (max-width: 1000px) and (min-width: 700px) {
+ @media all and (max-width: 767px) and (min-width: 550px) {
+ .contact-section {
+    height: 180%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ff9933;
+ 
+ }
+
+
+ @media all and (max-width: 1000px) and (min-width: 768px) {
  .contact-section {
     height: 150%;
     padding: 10px 50px 50px 50px;
@@ -355,14 +370,6 @@ body {
  
  }
  
- @media all and (max-width: 700px) and (min-width: 550px) {
- .contact-section {
-    height: 180%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background: #ff9933;
- 
- }
 
  /* contact1-section*/
 
