@@ -83,7 +83,12 @@ body {
     background: #ffccff;
 }
 
- @media screen and (max-width: 549px) {
+
+
+
+
+ @media screen 
+ and (max-width: 549px) {
   .intro-section {
     height: 350%;
     padding: 10px 50px 50px 50px;
@@ -91,11 +96,12 @@ body {
     background: #ff99ff;
     
     }
- 
- 
  }
  
- @media all and (max-width: 767px) and (min-width: 550px) { 
+ @media all 
+ and (max-width: 767px) 
+ and (min-width: 550px) 
+ and (orientation : portrait) { 
 
 .intro-section {
     height: 350%;
@@ -105,8 +111,26 @@ body {
 
 }
 }
+
+@media all
+and (min-device-width : 550px) 
+and (max-device-width : 767px) 
+and (orientation : landscape) { 
+.intro-section {
+    height: 600%;
+    padding: 20px 50px 0px 50px;
+    text-align: center;
+    background: #ffccff;
+}
+
+
+}
  
- @media all and (max-width: 800px) and (min-width: 768px) { 
+ @media all 
+ and (max-width: 800px) 
+ and (min-width: 768px)
+ and (orientation :portrait)
+  { 
  
   .intro-section {
     height: 150%;
@@ -117,7 +141,25 @@ body {
 }
 }
 
- @media all and (max-width: 991px) and (min-width: 800px) { 
+@media all 
+ and (max-width: 800px) 
+ and (min-width: 768px)
+ and (orientation :landscape)
+  { 
+ 
+  .intro-section {
+    height: 250%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background:  #ff99ff;
+    }
+}
+
+ @media all 
+ and (max-width: 991px) 
+ and (min-width: 800px)
+  and (orientation :portrait)
+  { 
  
   .intro-section {
     height: 150%;
@@ -128,7 +170,41 @@ body {
 }
 }
 
- @media all and (max-width: 1200px) and (min-width: 992px) { 
+@media all 
+ and (max-width: 991px) 
+ and (min-width: 800px)
+ and (orientation :landscape)
+  { 
+ 
+  .intro-section {
+    height: 250%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background:  #ffccff;
+    
+}
+}
+
+ @media all 
+ and (max-width: 1200px) 
+ and (min-width: 992px)
+ and (orientation :portrait)
+  { 
+ 
+  .intro-section {
+    height: 150%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background:   #ff99ff;
+    
+}
+}
+
+@media all 
+ and (max-width: 1200px) 
+ and (min-width: 992px)
+ and (orientation :landscape)
+  { 
  
   .intro-section {
     height: 150%;
@@ -174,9 +250,25 @@ body {
   
   }
  
-  @media all and (max-width: 991px) and (min-width: 768px) {
+  @media all 
+  and (max-width: 991px) 
+  and (min-width: 768px)
+  and (orientation :portrait) {
   .join-section {
     height: 125%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ffcccc;
+  
+  }
+  }
+  
+   @media all 
+  and (max-width: 991px) 
+  and (min-width: 768px)
+  and (orientation :landscape) {
+  .join-section {
+    height: 180%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ffcccc;
@@ -230,7 +322,33 @@ body {
       
       }
     
-     @media all and (max-width: 1200px) and (min-width: 768px) {
+     @media all 
+     and (max-width: 992px) 
+     and (min-width: 768px)
+     and (orientation :portrait)
+      {
+     .calendar-section {
+    height: 110%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ff9999;
+    }
+      }
+      
+       @media all 
+     and (max-width: 992px) 
+     and (min-width: 768px)
+     and (orientation :landscape)
+      {
+     .calendar-section {
+    height: 110%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ff9999;
+    }
+      }
+      
+       @media all and (max-width: 1200px) and (min-width: 992px) {
      .calendar-section {
     height: 110%;
     padding: 10px 50px 50px 50px;
