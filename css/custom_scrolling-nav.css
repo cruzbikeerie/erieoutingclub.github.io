@@ -90,7 +90,7 @@ body {
  @media screen 
  and (max-width: 549px) {
   .intro-section {
-    height: 350%;
+    height: 335%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff99ff;
@@ -99,8 +99,8 @@ body {
  }
  
  @media all 
- and (max-width: 767px) 
  and (min-width: 550px) 
+ and (max-width: 767px) 
  and (orientation : portrait) { 
 
 .intro-section {
@@ -126,44 +126,16 @@ and (orientation : landscape) {
 
 }
  
- @media all 
- and (max-width: 800px) 
- and (min-width: 768px)
- and (orientation :portrait)
-  { 
  
-  .intro-section {
-    height: 150%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background:  #ff99ff;
-    
-}
-}
-
-@media all 
- and (max-width: 800px) 
- and (min-width: 768px)
- and (orientation :landscape)
-  { 
- 
-  .intro-section {
-    height: 250%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background:  #ff99ff;
-    }
-}
-
  @media all 
  and (max-width: 991px) 
- and (min-width: 800px)
+ and (min-width: 768px)
   and (orientation :portrait)
   { 
  
   .intro-section {
-    height: 150%;
-    padding: 10px 50px 50px 50px;
+    height: 80%;
+    padding: 20px 50px 50px 50px;
     text-align: center;
     background:  #ffccff;
     
@@ -172,12 +144,12 @@ and (orientation : landscape) {
 
 @media all 
  and (max-width: 991px) 
- and (min-width: 800px)
+ and (min-width: 768px)
  and (orientation :landscape)
   { 
  
   .intro-section {
-    height: 250%;
+    height: 80%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background:  #ffccff;
@@ -207,7 +179,7 @@ and (orientation : landscape) {
   { 
  
   .intro-section {
-    height: 150%;
+    height: 250%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background:   #ff99ff;
@@ -272,20 +244,34 @@ and (orientation : landscape) {
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ffcccc;
-  
   }
   }
   
-   @media all and (max-width: 1200px) and (min-width: 992px) {
+   @media all
+    and (max-width: 1200px) 
+    and (min-width: 992px)
+    and (orientation :portrait)
+     {
        .join-section {
     height: 125%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff99cc;
-  
   }
+      }
       
-   }
+       @media all
+    and (max-width: 1200px) 
+    and (min-width: 992px)
+    and (orientation :landscape)
+     {
+       .join-section {
+    height: 155%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ff99cc;
+  }
+      }
   
  /* fix*/
  
@@ -301,7 +287,8 @@ and (orientation : landscape) {
     background: #ffcc99;
     }
     
-    @media screen and (max-width: 549px) {
+    @media screen 
+    and (max-width: 549px) {
     .calendar-section {
     height: 75%;
     padding: 10px 50px 50px 50px;
@@ -311,7 +298,9 @@ and (orientation : landscape) {
     
     }
     
-     @media all and (max-width: 767px) and (min-width: 550px) {
+     @media all
+      and (max-width: 767px) 
+      and (min-width: 550px) {
       
       .calendar-section {
     height: 170%;
@@ -348,9 +337,26 @@ and (orientation : landscape) {
     }
       }
       
-       @media all and (max-width: 1200px) and (min-width: 992px) {
+       @media all 
+       and (max-width: 1200px) 
+       and (min-width: 992px)
+       and (orientation :portrait)
+        {
      .calendar-section {
     height: 110%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ff9999;
+    }
+      }
+      
+       @media all 
+       and (max-width: 1200px) 
+       and (min-width: 992px)
+       and (orientation :landscape)
+        {
+     .calendar-section {
+    height: 250%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff9999;
