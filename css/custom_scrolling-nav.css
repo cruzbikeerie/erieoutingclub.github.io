@@ -203,7 +203,7 @@ and (orientation : landscape) {
  @media screen and (max-width: 549px) {
  
   .join-section {
-    height: 150%;
+    height: 180%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ffcccc;
@@ -431,7 +431,7 @@ and (orientation : landscape) {
 
  @media screen and (max-width: 549px) {
  .meeting-section {
-    height: 120%;
+    height: 155%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background:  #87AFC;
