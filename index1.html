@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+     <!-- last update 01/10/2016 12:25 a.m. -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,12 @@
     <meta name="author" content="">
 
     <title>Erie Outing Club</title>
+    <!-- bootstrap-social.css -->
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    
+     <!-- font-awesome.min.css -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -48,14 +54,14 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-				<a href="#join" class ="btn btn-info nabvar-btn navbar-right page-scroll">Join Now</a>
+				<a href="#join" class ="btn btn-info nabvar-btn navbar-right page-scroll hidden-xs hidden-sm">Join Now</a>
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#join">Join</a>
+                        <a class="page-scroll hidden-md hidden-lg" href="#join">Join</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#calendar">Calendar</a>
@@ -71,6 +77,10 @@
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
+                    
+                      <li>
+                        <a class="page-scroll  hidden-xs hidden-sm" href="#credits">Credits</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -81,6 +91,20 @@
   	<div class="container text-center">
     <h1>Erie Outing Club</h1>
     <p>We do Backpacking, Bicycle Riding,Cross-Country Skiing, Hiking,and Kayaking</p> 
+     <div class="text-center" >
+    <div class="list-inline">
+    		 <a class="btn btn-primary btn-sm btn-social-icon btn-facebook" href="https://www.facebook.com/Erie-Outing-Club-131792463542973/" title="Sign in with Facebook" rel="nofollow">
+    <span class="fa fa-facebook"></span>&nbsp;Follow us on Facebook</a>
+    
+     <a class="btn btn-primary btn-sm btn-social-icon btn-google" href="https://plus.google.com/u/0/114549354088221792282" title="Follow us on Google Plus" rel="nofollow">
+    <span class="fa fa-google"></span>&nbsp;Follow us on Google +</a>
+    
+    
+    
+     <a class="btn btn-primary btn-sm btn-social-icon btn-youtube" href="https://www.youtube.com/user/erieoutdoors" title="Follow us on Youtube" rel="nofollow">
+    <span class="fa fa-youtube"></span>&nbsp;Follow us on Youtube </a>
+   </div>
+    	 </div><!-- text-center -->
   </div>  <!-- class="container -->
   </div>  <!-- jumbotron -->
 
@@ -92,7 +116,7 @@
        <img src="images/aboutus.png" class="img-responsive img-circle" alt="Cinque Terre" width="304" height="158"> 
         <h3>About Us</h3>
       <p>The Erie Outing Club is a group for adults 18 years old and above with the average age between 50-80...</p>
-      <p>We enjoy socila non-competive outdoor activities of all kinds...</p>
+      <p>We enjoy social non-competive outdoor activities of all kinds...</p>
     </div>
     <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 		 <img src="images/wintersports.png" class="img-responsive img-circle" alt="Cinque Terre" width="304" height="158"> 
@@ -134,9 +158,8 @@
     <section id="join" class="join-section">
         <div class="container">
          <div class="page-header">
-    <h1>Membership Information Page<small>    How to join the Erie Outing Club</small></h1>
-        
-  </div> <!-- page header end -->
+    <h2>Membership Information Page<small>    How to join the Erie Outing Club</small></h2>
+        </div> <!-- page header end -->
             <div class="row">
              <div class="col-xs-12 col-lg-4">
               <p>Below is the link to the membership application.
@@ -166,9 +189,9 @@ You need the acrobat reader program to view file.</p>
     <section id="calendar" class="calendar-section">
         <div class="container">
         	<div class="page-header">
-    <h1>Event Calendar</h1>      
-  </div>
-            <div class="row">
+       <h2>Event Calendar<small>  Events for people who love the Outdoors</small></h2> 
+         </div> <!-- page header end -->     
+         <div class="row">
           <div class="embed-responsive embed-responsive-16by9">
     <iframe class="embed-responsive-item" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;mode=AGENDA&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=erieoutingclub%40gmail.com&amp;color=%232952A3&amp;ctz=America%2FNew_York"></iframe>
   </div>
@@ -179,11 +202,14 @@ You need the acrobat reader program to view file.</p>
      <!-- Meeting Section -->
     <section id="meeting" class="meeting-section">
         <div class="container">
+			 <div class="container">
+        	<div class="page-header">
+       <h2>Monthly Meeting<small>  Monthly Meeting for interest speaker and get the lastest info on events</small></h2> 
+         </div> <!-- page header end --> 
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-      <h1>The Membership Meeting </h1>
-       <h2>The Membership Meeting is on the Third Tuesday of the Month</h2>
-       <h2>at 7:20 p.m.</h2>
+      <h2>The Membership Meeting is on the Third Tuesday of the Month</h2>
+       <h2>at 7:00 p.m.</h2>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
       <h3>Meeting Date</h3>
@@ -199,7 +225,7 @@ You need the acrobat reader program to view file.</p>
     <section id="question" class="question-section">
         <div class="container">
         <div class="page-header">
-       <h1>Frequency Ask Questions<small>  Engaging with people who love the Outdoors</small></h1> 
+       <h2>Frequency Ask Questions<small>  Engaging with people who love the Outdoors</small></h2> 
          </div> <!-- page header end -->
                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                	<div class = "panel-group" id="accordion">
@@ -339,7 +365,7 @@ You need the acrobat reader program to view file.</p>
     <section id="contact" class="contact-section">
         <div class="container">
          <div class="page-header">
-    <h1>Contact the Erie Outing Club<small> Contact the Erie Outing Club for more information</small></h1>     
+    <h2>Contact the Erie Outing Club<small> Contact the Erie Outing Club for more information</small></h2>     
   </div> <!-- page header end -->
             <div class="row">
              <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4">
@@ -360,18 +386,30 @@ You need the acrobat reader program to view file.</p>
     </section>
     
    
-    <!-- <footer>
-    	<hr>
-    	<ul class="list-inline">
+    <footer id="credits">
+		<div class="container">
+			<hr>
+			<p>&copy; Web site updated and Maintained by Erie Outing Club Computer Geeks 2016</p>
+    	<div class="list-inline">
     		 
     		  <div class="text-center" >
-    		<li><a href "https://www.youtube.com/user/erieoutdoors">You Tube</a></li>
-    		<li><a href "https://www.facebook.com/Erie-Outing-Club-131792463542973/">Facebook</a></li>
-    		<li><a href "https://twitter.com/erieoutingclub">Twitter</a></li>
-    		</div>
-    	</ul>
+	
+                   <a class="btn btn-primary btn-lg btn-social-icon btn-facebook" href="https://www.facebook.com/Erie-Outing-Club-131792463542973/" title="Sign in with Facebook" rel="nofollow">
+    <span class="fa fa-facebook"></span>&nbsp;Follow us on Facebook</a>
+    
+     <a class="btn btn-primary btn-lg btn-social-icon btn-google" href="https://plus.google.com/u/0/114549354088221792282" title="Follow us on Google Plus" rel="nofollow">
+    <span class="fa fa-google"></span>&nbsp;Follow us on Google +</a>
+    
+    
+    
+     <a class="btn btn-primary btn-lg btn-social-icon btn-youtube" href="https://www.youtube.com/user/erieoutdoors" title="Follow us on Youtube" rel="nofollow">
+    <span class="fa fa-youtube"></span>&nbsp;Follow us on Youtube </a>
+    </div><!-- text-center -->
+    	</div>
+    	</div> <!-- end container -->
     	
-    </footer> -->
+    	
+    </footer>
     
 <!-- jQuery -->
     <script src="js/jquery.js"></script>
