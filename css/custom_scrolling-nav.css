@@ -429,7 +429,8 @@ and (orientation : landscape) {
     background: #659EC7;
 }
 
- @media screen and (max-width: 549px) {
+ @media screen
+ and (max-width: 549px) {
  .meeting-section {
     height: 155%;
     padding: 10px 50px 50px 50px;
@@ -439,7 +440,10 @@ and (orientation : landscape) {
  
  }
  
-  @media all and (max-width: 768px) and (min-width: 550px) {
+  @media all
+   and (max-width: 768px) 
+   and (min-width: 550px)
+   and (orientation :portrait) {
    
    .meeting-section {
     height: 180%;
@@ -448,8 +452,24 @@ and (orientation : landscape) {
     background: #659EC7;
 }
    }
+   
+    @media all
+   and (max-width: 768px) 
+   and (min-width: 550px)
+   and (orientation :landscape) {
+   
+   .meeting-section {
+    height: 180%;
+    padding: 20px 50px 50px 50px;
+    text-align: center;
+    background: #659EC7;
+}
+   }
+   
  
-  @media all and (max-width: 1200px) and (min-width: 768px) {
+  @media all 
+  and (max-width: 1200px) 
+  and (min-width: 768px) {
   .meeting-section {
     height: 110%;
     padding: 20px 50px 50px 50px;
