@@ -225,7 +225,9 @@ and (orientation : landscape) {
     
  }
 
- @media screen and (max-width: 549px) {
+ @media screen
+ and (min-width: 511px)
+ and (max-width: 549px) {
  
   .join-section {
     height: 180%;
