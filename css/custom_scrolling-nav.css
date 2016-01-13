@@ -212,6 +212,19 @@ and (orientation : landscape) {
     background: #ffcccc;
 }
 
+ @media screen 
+ and (max-width: 510px)
+  and (orientation :landscape)
+ {
+     .join-section {
+    height: 200%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ffcccc;
+}
+    
+ }
+
  @media screen and (max-width: 549px) {
  
   .join-section {
@@ -298,6 +311,18 @@ and (orientation : landscape) {
     text-align: center;
     background: #ffcc99;
     }
+    
+   @media screen 
+   and (max-width: 510px)
+   and (orientation :landscape){
+      .calendar-section {
+    height: 100%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ff9999;
+    }
+     
+  }
     
     @media screen 
     and (max-width: 549px) {
