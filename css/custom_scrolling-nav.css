@@ -214,6 +214,17 @@ and (orientation : landscape) {
 
  @media screen 
  and (max-width: 510px)
+  and (orientation :portrait)
+ {
+     .join-section {
+    height: 200%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ffcccc;
+}
+
+ @media screen 
+ and (max-width: 510px)
   and (orientation :landscape)
  {
      .join-section {
