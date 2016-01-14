@@ -99,7 +99,7 @@ body {
 
 
  @media screen 
-  and (min-width: 510px) 
+  and (min-width: 401px) 
  and (max-width: 549px) {
   .intro-section {
     height: 335%;
