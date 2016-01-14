@@ -213,7 +213,7 @@ and (orientation : landscape) {
 }
 
  @media screen 
- and (max-width: 510px)
+ and (max-width: 400px)
   and (orientation :portrait)
  {
      .join-section {
@@ -326,7 +326,7 @@ and (orientation : landscape) {
     }
     
    @media screen 
-   and (max-width: 510px)
+   and (max-width: 400px)
    and (orientation :landscape){
       .calendar-section {
     height: 100%;
@@ -337,16 +337,7 @@ and (orientation : landscape) {
      
   }
     
-    @media screen 
-    and (max-width: 549px) {
-    .calendar-section {
-    height: 75%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background: #ff9999;
-    }
-    
-    }
+   
     
      @media all
       and (max-width: 767px) 
@@ -428,7 +419,7 @@ and (orientation : landscape) {
     background: #ffcc66;
 }
 
- @media screen and (max-width: 399px) {
+ @media screen and (max-width: 400px) {
  .question-section {
     height: 230%;
     padding: 10px 50px 50px 50px;
@@ -480,7 +471,7 @@ and (orientation : landscape) {
 }
 
  @media screen
- and (max-width: 549px) {
+ and (max-width: 400px) {
  .meeting-section {
     height: 155%;
     padding: 10px 50px 50px 50px;
@@ -542,7 +533,7 @@ and (orientation : landscape) {
     background: #ffcc33;
 }
 
-@media screen and (max-width: 399px) {
+@media screen and (max-width: 400px) {
 
 .contact-section {
     height: 175%;
