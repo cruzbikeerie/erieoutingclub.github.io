@@ -222,6 +222,7 @@ and (orientation : landscape) {
     text-align: center;
     background: #ffcccc;
 }
+}
 
  @media screen 
   and (min-width: 401px)
@@ -229,7 +230,7 @@ and (orientation : landscape) {
 
  {
      .join-section {
-    height: 200%;
+    height: 300%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ffcccc;
