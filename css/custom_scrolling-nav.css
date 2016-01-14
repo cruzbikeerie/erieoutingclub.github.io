@@ -230,7 +230,7 @@ and (orientation : landscape) {
 
  {
      .join-section {
-    height: 300%;
+    height: 160%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ffcccc;
@@ -346,11 +346,12 @@ and (orientation : landscape) {
    
     
      @media all
-      and (max-width: 767px) 
-      and (min-width: 550px) {
+     and (min-width: 401px)
+      and (max-width: 549px) 
+       {
       
       .calendar-section {
-    height: 170%;
+    height: 180%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ffcc99;
