@@ -436,7 +436,9 @@ and (orientation : landscape) {
  
  }
  
-  @media all and (max-width: 550px) and (min-width: 400px) {
+  @media all 
+  and (max-width: 549px) 
+  and (min-width: 400px) {
       .question-section {
     height: 175%;
     padding: 10px 50px 50px 50px;
@@ -446,7 +448,9 @@ and (orientation : landscape) {
      
   }
  
-  @media all and (max-width: 768px) and (min-width: 550px) {
+  @media all 
+  and (max-width: 768px) 
+  and (min-width: 550px) {
     .question-section {
     height: 260%;
     padding: 0px 50px 50px 50px;
@@ -489,9 +493,9 @@ and (orientation : landscape) {
  }
  
   @media all
-   and (max-width: 768px) 
-   and (min-width: 550px)
-   and (orientation :portrait) {
+  and (min-width: 400px)
+   and (max-width: 549px) 
+ {
    
    .meeting-section {
     height: 180%;
@@ -504,6 +508,19 @@ and (orientation : landscape) {
     @media all
    and (max-width: 768px) 
    and (min-width: 550px)
+   and (orientation :portrait) {
+   
+   .meeting-section {
+    height: 200%;
+    padding: 20px 50px 50px 50px;
+    text-align: center;
+    background: #659EC7;
+}
+   }
+   
+     @media all
+   and (max-width: 768px) 
+   and (min-width: 550px)
    and (orientation :landscape) {
    
    .meeting-section {
@@ -514,18 +531,33 @@ and (orientation : landscape) {
 }
    }
    
- 
-  @media all 
+    @media all 
   and (max-width: 1200px) 
-  and (min-width: 768px) {
+  and (min-width: 768px)
+   and (orientation :portrait)
+  {
   .meeting-section {
     height: 110%;
     padding: 20px 50px 50px 50px;
     text-align: center;
     background: #87AFC7;
 }
-  
-  }
+   }
+   
+   
+ 
+  @media all 
+  and (max-width: 1200px) 
+  and (min-width: 768px)
+   and (orientation :landscape)
+  {
+  .meeting-section {
+    height: 110%;
+    padding: 20px 50px 50px 50px;
+    text-align: center;
+    background: #87AFC7;
+}
+   }
   
   
  
@@ -540,7 +572,8 @@ and (orientation : landscape) {
     background: #ffcc33;
 }
 
-@media screen and (max-width: 400px) {
+@media all
+and (max-width: 400px) {
 
 .contact-section {
     height: 175%;
@@ -551,7 +584,10 @@ and (orientation : landscape) {
 
 }
 
- @media all and (max-width: 767px) and (min-width: 400px) {
+ @media all
+ and (min-width: 400px)
+ and (max-width: 549px)
+ and (min-width: 400px) {
     .contact-section {
     height: 150%;
     padding: 10px 50px 50px 50px;
@@ -561,7 +597,11 @@ and (orientation : landscape) {
     
  }
 
- @media all and (max-width: 767px) and (min-width: 550px) {
+ @media all
+ and (min-width: 550px)
+ and (max-width: 767px)
+  and (orientation :portrait)
+ {
  .contact-section {
     height: 180%;
     padding: 10px 50px 50px 50px;
@@ -569,17 +609,47 @@ and (orientation : landscape) {
     background: #ffcc33;
  
  }
+ }
+ 
+  @media all
+ and (min-width: 550px)
+ and (max-width: 767px)
+  and (orientation :landscape)
+ {
+ .contact-section {
+    height: 180%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ffcc33;
+ 
+ }
+ }
 
 
- @media all and (max-width: 1000px) and (min-width: 768px) {
+ @media all 
+  and (min-width: 768px)
+ and (max-width: 1200px) 
+ and (orientation :portrait)
+ {
  .contact-section {
     height: 150%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff9933;
 }
+ }
  
- 
+  @media all 
+  and (min-width: 768px)
+ and (max-width: 1200px) 
+ and (orientation :landscape)
+ {
+ .contact-section {
+    height: 150%;
+    padding: 10px 50px 50px 50px;
+    text-align: center;
+    background: #ff9933;
+}
  }
  
 
