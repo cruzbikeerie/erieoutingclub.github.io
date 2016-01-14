@@ -102,7 +102,7 @@ body {
   and (min-width: 401px) 
  and (max-width: 549px) {
   .intro-section {
-    height: 335%;
+    height: 275%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff99ff;
@@ -224,8 +224,9 @@ and (orientation : landscape) {
 }
 
  @media screen 
- and (max-width: 510px)
-  and (orientation :landscape)
+  and (min-width: 401px)
+ and (max-width: 549px)
+
  {
      .join-section {
     height: 200%;
@@ -236,28 +237,32 @@ and (orientation : landscape) {
     
  }
 
- @media screen
- and (min-width: 511px)
- and (max-width: 549px) {
+
  
-  .join-section {
-    height: 180%;
-    padding: 10px 50px 50px 50px;
-    text-align: center;
-    background: #ffcccc;
-}
- 
- }
- 
-  @media all and (max-width: 767px) and (min-width: 550px) {
+  @media all
+  and (max-width: 767px) 
+  and (min-width: 550px)
+  and (orientation :portrait) {
+  {
   .join-section {
     height: 200%;
     padding: 20px 50px 50px 50px;
     text-align: center;
     background: #ff99cc;
 }
+  }
   
-  
+   @media all
+  and (max-width: 767px) 
+  and (min-width: 550px)
+  and (orientation :landscape) {
+  {
+  .join-section {
+    height: 200%;
+    padding: 20px 50px 50px 50px;
+    text-align: center;
+    background: #ff99cc;
+}
   }
  
   @media all 
