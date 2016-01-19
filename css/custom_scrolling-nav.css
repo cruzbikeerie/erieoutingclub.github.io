@@ -326,7 +326,8 @@ and (orientation : landscape) {
     height: 160%;
     padding: 30px 50px 50px 50px;
     text-align: center;
-    background: #ffcc99;
+    
+    background-image: url("images/background1.jpg");
     }
     
    @media screen 
