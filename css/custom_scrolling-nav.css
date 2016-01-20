@@ -608,6 +608,10 @@ and (max-width: 400px) {
     background: #ffcc33;
  
  }
+ .contact-section h3 {
+    font-size:20px;
+}
+ 
  }
  
   @media all
@@ -622,6 +626,10 @@ and (max-width: 400px) {
     background: #ffcc33;
  
  }
+ .contact-section h3 {
+    font-size:20px;
+}
+ 
  }
 
 
