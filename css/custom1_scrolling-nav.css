@@ -49,3 +49,7 @@ h4 {
 background-image: url("http://erieoutingclub.org/images/bedford2.jpg");
  height: 25%;
 }
+
+small {
+ color:yellow;
+}
