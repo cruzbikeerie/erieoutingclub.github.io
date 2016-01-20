@@ -129,7 +129,7 @@ and (min-device-width : 550px)
 and (max-device-width : 767px) 
 and (orientation : landscape) { 
 .intro-section {
-    height: 605%;
+    height: 635%;
     padding: 20px 50px 0px 50px;
     text-align: center;
     background: #ffccff;
@@ -245,7 +245,7 @@ and (orientation : landscape) {
   and (min-width: 550px)
   and (orientation :portrait) {
   .join-section {
-    height: 200%;
+    height: 220%;
     padding: 20px 50px 50px 50px;
     text-align: center;
     background: #ff99cc;
@@ -523,7 +523,7 @@ and (orientation : landscape) {
    and (orientation :landscape) {
    
    .meeting-section {
-    height: 200%;
+    height: 210%;
     padding: 20px 50px 50px 50px;
     text-align: center;
     background: #659EC7;
