@@ -50,6 +50,6 @@ background-image: url("http://erieoutingclub.org/images/bedford2.jpg");
  height: 25%;
 }
 
-small {
-color:blue;
+ .page-header small {
+color:yellow;
 }
