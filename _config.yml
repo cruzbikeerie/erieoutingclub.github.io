@@ -1,0 +1,12 @@
+
+title: Erie Outing Club
+email: your-email@domain.com
+
+baseurl: "/erieoutingclub.github.io" # the subpath of your site, e.g. /blog
+url: "http://cycleerie.org/erieoutingclub.github.io/" # the base hostname & protocol for your site
+
+
+# Build settings
+markdown: kramdown
+
+exclude: ["README.md"]
