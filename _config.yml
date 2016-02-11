@@ -1,12 +1,16 @@
 
 title: Erie Outing Club
-email: your-email@domain.com
+description: Erie Outing Club is a social Outdoor Club, we do bicycle riding, kayaking, hiking,backpacking, etc
 
-baseurl: "/erieoutingclub.github.io" # the subpath of your site, e.g. /blog
 url: "http://cycleerie.org/erieoutingclub.github.io/" # the base hostname & protocol for your site
+baseurl: "/erieoutingclub.github.io" # the subpath of your site, e.g. /blog
+
 
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
 
 exclude: ["README.md"]
