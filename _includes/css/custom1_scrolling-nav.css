@@ -1,7 +1,7 @@
  /* custom1*/
 
 footer {
-    
+
      background: black;
      color:white;
 }
@@ -9,9 +9,9 @@ footer {
 h2 {
  font-family: Arial, Helvetica, sans-serif;
   font-size: 3.0em; /* 30px/16=1.875em */
-  color:black;
+  color:yellow;
   text-align: center;
- 
+
 }
 
 
@@ -21,7 +21,7 @@ h3 {
   font-size: 2.5em; /* 30px/16=1.875em */
   color:black;
   text-align: center;
- 
+
 }
 
 
@@ -31,8 +31,14 @@ h4 {
   font-size: 1.875em; /* 30px/16=1.875em */
   color:black;
   text-align: center;
- 
+
 }
+
+#title {
+  color:yellow;
+}
+
+
 
 @media screen and (max-width: 768px) {
   h4 {
@@ -40,13 +46,13 @@ h4 {
   font-size: 1.2em; /* 30px/16=1.875em */
   color:black;
   text-align: center;
- 
+
 }
- 
+
 }
 
  .page-header {
-background-image: url("http://erieoutingclub.org/images/bedford2.jpg");
+background-image: url("{{ site.baseurl }}/static/images/bridge.jpg");
  height: 25%;
 }
 

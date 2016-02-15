@@ -10,7 +10,5 @@ baseurl: "/erieoutingclub.github.io" # the subpath of your site, e.g. /blog
 # Build settings
 markdown: kramdown
 highlighter: rouge
-gems: [jekyll-paginate]
-paginate: 5
 
 exclude: ["README.md"]
