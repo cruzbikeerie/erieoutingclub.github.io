@@ -2,7 +2,7 @@
 title: Erie Outing Club
 description: Erie Outing Club is a social Outdoor Club, we do bicycle riding, kayaking, hiking,backpacking, etc
 
-url: "http://cycleerie.org/erieoutingclub.github.io/" # the base hostname & protocol for your site
+url: "http://erieoutingclub.github.io." # the base hostname & protocol for your site
 baseurl: "/erieoutingclub.github.io" # the subpath of your site, e.g. /blog
 
 
