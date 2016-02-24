@@ -59,3 +59,7 @@ background-image: url("{{ site.baseurl }}/static/images/bridge.jpg");
  .page-header small {
 color:#500000 ;
 }
+
+small {
+ background-color: white;
+}
