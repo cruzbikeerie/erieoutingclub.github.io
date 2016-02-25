@@ -15,8 +15,15 @@
              </div>
               <div class="col-xs-6 col-sm-6 col-md-8 col-lg-8">
               <h3>Click Button below to send a electronic mail message</h3>
-              <h3>You will be leaving the Erie Outing Club site</h3><br>
-               <a href="http://www.123contactform.com/form-1713646/Erie-Outing-Club-Form" ><img  src="https://dflzqrzibliy5.cloudfront.net/images3/contactbutton.gif"  alt="Click Here"></a>
+              <form action="http://formspree.io/webmaster@erieoutingclub.org" method="POST">
+    <label for="name">Name</label>    
+    <input type="text" id="name" name="name" class="full-width" /><br />
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="_replyto" class="full-width" /><br />
+    <label for="message">Message</label>
+    <textarea name="message" id="message" cols="30" rows="10" class="full-width"></textarea><br />
+    <input type="submit" value="Send" class="button" />
+  </form>
               </div>
 		</div> <!-- end row -->
         </div> <!-- end container -->
