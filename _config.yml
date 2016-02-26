@@ -11,4 +11,4 @@ baseurl: "/erieoutingclub.github.io" # the subpath of your site, e.g. /blog
 markdown: kramdown
 highlighter: rouge
 
-exclude: ["README.md"]
+exclude: ["README.md, CNAME"]
