@@ -575,7 +575,7 @@ and (orientation : landscape) {
 and (max-width: 400px) {
 
 .contact-section {
-    height: 175%;
+    height: 200%;
     padding: 10px 50px 50px 50px;
     text-align: center;
     background: #ff9933;
