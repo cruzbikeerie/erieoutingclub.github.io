@@ -11,14 +11,9 @@
 </h4>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-      <h3>Click this button to display the meeting for  this month.</h3>
-
-<button onclick="myFunction()">Click Here</button>
-
-<p id="demo"></p>
+      <h3>The Membeship Meeting for the next two  months are below</h3>
 
 <script>
-function myFunction() {
     var month = new Array();
     month[0] = "January 19";
     month[1] = "February 15";
@@ -31,16 +26,19 @@ function myFunction() {
     month[8] = "September 20";
     month[9] = "October 18";
     month[10] = "November 15";
-    month[11] = "December No meeting Christmas Party";
+    month[11] = "December No meeting";
+    month[12] = "Christmas Party";
 
     var d = new Date();
     var thisMonth = month[d.getMonth()];
     var nextMonth = month[d.getMonth() + 1];
-    document.getElementById("demo").innerHTML = thisMonth;
-  
-}
-</script>
+document.write("<h4>");
+ document.write(thisMonth + "</br>");
+    document.write(nextMonth);
+document.write("</h4>");
 
+
+</script>
   
     </div> <!-- embed-responsive -->
             </div> <!-- Row -->
