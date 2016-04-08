@@ -218,7 +218,7 @@ and (orientation : landscape) {
  {
      .join-section {
     height: 200%;
-    padding: 2.25em 3.125em 65.125em 3.125em;
+    padding: 2.25em 3.125em 70.125em 3.125em;
     text-align: center;
     background: #ffcccc;
 }
