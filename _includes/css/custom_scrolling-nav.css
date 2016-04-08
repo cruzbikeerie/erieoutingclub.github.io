@@ -427,7 +427,7 @@ and (orientation : landscape) {
  @media screen and (max-width: 400px) {
  .question-section {
     height: 230%;
-    padding: 0.625em 50px 50px 50px;
+    padding: 0.625em 3.125em 3.125em 3.125em;
     text-align: center;
     background: #ff9966;
 }
