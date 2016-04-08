@@ -87,7 +87,7 @@ body {
  and (max-width: 400px) {
   .intro-section {
     height: 350%;
-    padding: 10px 50px 50px 50px;
+    padding: 2.25em 1.25em 140em 1.25em;
     text-align: center;
     background: #ff99ff;
     
@@ -218,7 +218,7 @@ and (orientation : landscape) {
  {
      .join-section {
     height: 200%;
-    padding: 10px 50px 50px 50px;
+    padding: 2.25em 3.125em 65.125em 3.125em;
     text-align: center;
     background: #ffcccc;
 }
@@ -484,7 +484,7 @@ and (orientation : landscape) {
  and (max-width: 400px) {
  .meeting-section {
     height: 155%;
-    padding: 10px 50px 50px 50px;
+    padding: 3.125em 3.125em 70.125em 3.125em;
     text-align: center;
     background:  #87AFC;
 }
