@@ -147,7 +147,7 @@ and (orientation : landscape) {
  
   .intro-section {
     height: 80%;
-    padding: 20px 50px 50px 50px;
+    padding: 1.25em 3.125em 3.125em 3.125em;
     text-align: center;
     background:  #ffccff;
     
