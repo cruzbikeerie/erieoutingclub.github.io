@@ -214,7 +214,6 @@ and (orientation : landscape) {
 
  @media screen 
  and (max-width: 400px)
-  and (orientation :portrait)
  {
      .join-section {
     height: 200%;
@@ -332,10 +331,10 @@ and (orientation : landscape) {
     
    @media screen 
    and (max-width: 400px)
-   and (orientation :landscape){
+   {
       .calendar-section {
     height: 100%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em 3.125em 3.125em 3.125em;
     text-align: center;
     background: #ff9999;
     }
@@ -428,7 +427,7 @@ and (orientation : landscape) {
  @media screen and (max-width: 400px) {
  .question-section {
     height: 230%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em 50px 50px 50px;
     text-align: center;
     background: #ff9966;
 }
@@ -576,7 +575,7 @@ and (max-width: 400px) {
 
 .contact-section {
     height: 220%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em 50px 50px 50px;
     text-align: center;
     background: #ff9933;
 }
