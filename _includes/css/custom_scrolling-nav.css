@@ -198,12 +198,7 @@ and (orientation : landscape) {
     
 }
 }
-
-
-
-
- 
-  /* join-section */
+/* join-section */
 
 .join-section {
     height: 100%;
@@ -315,10 +310,6 @@ and (orientation : landscape) {
       }
   
  /* fix*/
- 
-  
-  
-
  /* calendar-section*/
 
 .calendar-section {
@@ -340,10 +331,7 @@ and (orientation : landscape) {
     }
      
   }
-    
-   
-    
-     @media all
+    @media all
      and (min-width: 401px)
       and (max-width: 549px) 
        {
