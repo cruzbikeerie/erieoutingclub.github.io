@@ -1,0 +1,17 @@
+var month = new Array();
+month[0] = "January Meeting will be  at<br> the Erie Sight Center<br>2545 West 26th Street<br> Erie, PA 16505-3261";
+month[1] = "Febuary Meeting will be  at<br> the Erie Sight Center<br>2545 West 26th Street<br> Erie, PA 16505-3261";
+month[2] = "March Meeting will be  at<br> the Erie Sight Center<br>2545 West 26th Street<br> Erie, PA 16505-3261";
+month[3] = "April Meeting will be  at<br> the Erie Sight Center<br>2545 West 26th Street<br> Erie, PA 16505-3261";
+month[4] = "May Meeting will be  at<br> the Erie Sight Center<br>2545 West 26th Street<br> Erie, PA 16505-3261";
+month[5] = "June Meeting will be  at<br>the Rotary Pavilion, Presque Isle";
+month[6] = "July Meeting will be  at<br> <br>the Rotary Pavilion, Presque Isle";
+month[7] = "August Meeting will be  at<br><br>the Rotary Pavilion, Presque Isle";
+month[8] = "September Meeting will be  at<br> the Erie Sight Center<br>2545 West 26th Street<br> Erie, PA 16505-3261";
+month[9] = "October Meeting will be  at<br> the Erie Sight Center<br>2545 West 26th Street<br> Erie, PA 16505-3261";
+month[10] = "November Meeting will be  at<br> the Erie Sight Center<br>2545 West 26th Street<br> Erie, PA 16505-3261";
+month[11] = "December No meeting";
+month[12] = "Christmas Party";
+var d = new Date();
+var thisMonth = month[d.getMonth()];
+document.getElementById("meetingPlace").innerHTML = thisMonth + "</br>";
