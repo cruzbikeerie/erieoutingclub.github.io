@@ -93,11 +93,6 @@ body {
     
     }
  }
-
-
-
-
-
  @media screen 
   and (min-width: 401px) 
  and (max-width: 549px) {
@@ -447,10 +442,6 @@ and (orientation : landscape) {
 }
   
   }
-  
-  
-  
-  
   /* meeting-section*/
 
 .meeting-section {
@@ -537,12 +528,7 @@ and (orientation : landscape) {
     background: #87AFC7;
 }
    }
-  
-  
- 
- 
- 
- /* contact-section*/
+  /* contact-section*/
 
 .contact-section {
     height: 100%;
