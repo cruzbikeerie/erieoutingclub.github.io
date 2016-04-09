@@ -125,7 +125,7 @@ and (max-device-width : 767px)
 and (orientation : landscape) { 
 .intro-section {
     height: 635%;
-    padding: 1.25em 3.125em 0em 3.125em;
+    padding: 1.25em 3.125em 4.0em 3.125em;
     text-align: center;
     background: #ffccff;
 }
