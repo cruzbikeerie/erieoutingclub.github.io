@@ -117,7 +117,7 @@ body {
 
 .intro-section {
     height: 350%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em 3.125em 3.125em 3.125em;
     text-align: center;
     background:   #ffccff;
 
@@ -130,7 +130,7 @@ and (max-device-width : 767px)
 and (orientation : landscape) { 
 .intro-section {
     height: 635%;
-    padding: 20px 50px 0px 50px;
+    padding: 1.25em 3.125em 0em 3.125em;
     text-align: center;
     background: #ffccff;
 }
@@ -162,7 +162,7 @@ and (orientation : landscape) {
  
   .intro-section {
     height: 80%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em 3.125em 3.125em 3.125em;
     text-align: center;
     background:  #ffccff;
     
@@ -177,7 +177,7 @@ and (orientation : landscape) {
  
   .intro-section {
     height: 150%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background:   #ff99ff;
     
@@ -192,7 +192,7 @@ and (orientation : landscape) {
  
   .intro-section {
     height: 250%;
-    padding: 10px 50px 50px 50px;
+     padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background:   #ff99ff;
     
@@ -230,7 +230,7 @@ and (orientation : landscape) {
  {
      .join-section {
     height: 160%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ffcccc;
 }
@@ -245,7 +245,7 @@ and (orientation : landscape) {
   and (orientation :portrait) {
   .join-section {
     height: 220%;
-    padding: 20px 50px 50px 50px;
+     padding: 1.25em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ff99cc;
 }
@@ -257,7 +257,7 @@ and (orientation : landscape) {
   and (orientation :landscape) {
   .join-section {
     height: 200%;
-    padding: 20px 50px 50px 50px;
+    padding: 1.25em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ff99cc;
 }
@@ -269,7 +269,7 @@ and (orientation : landscape) {
   and (orientation :portrait) {
   .join-section {
     height: 125%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ffcccc;
   
@@ -282,7 +282,7 @@ and (orientation : landscape) {
   and (orientation :landscape) {
   .join-section {
     height: 180%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ffcccc;
   }
@@ -295,7 +295,7 @@ and (orientation : landscape) {
      {
        .join-section {
     height: 125%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ff99cc;
   }
@@ -308,7 +308,7 @@ and (orientation : landscape) {
      {
        .join-section {
     height: 155%;
-    padding: 10px 50px 50px 50px;
+   padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ff99cc;
   }
@@ -350,7 +350,7 @@ and (orientation : landscape) {
       
       .calendar-section {
     height: 200%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ffcc99;
     }
@@ -364,7 +364,7 @@ and (orientation : landscape) {
       {
      .calendar-section {
     height: 110%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ff9999;
     }
@@ -377,7 +377,7 @@ and (orientation : landscape) {
       {
      .calendar-section {
     height: 110%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ff9999;
     }
@@ -390,7 +390,7 @@ and (orientation : landscape) {
         {
      .calendar-section {
     height: 110%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ff9999;
     }
@@ -403,19 +403,12 @@ and (orientation : landscape) {
         {
      .calendar-section {
     height: 250%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ff9999;
     }
       }
-      
-    
-     
-    
-    
-    
-
- /* question-section*/
+      /* question-section*/
 
 .question-section {
     height: 125%;
@@ -439,7 +432,7 @@ and (orientation : landscape) {
   and (min-width: 400px) {
       .question-section {
     height: 175%;
-    padding: 10px 50px 50px 50px;
+   padding: 0.625em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ff9966;
 }
@@ -451,7 +444,7 @@ and (orientation : landscape) {
   and (min-width: 550px) {
     .question-section {
     height: 260%;
-    padding: 0px 50px 50px 50px;
+    padding: 0em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ffcc66;
    }
@@ -460,7 +453,7 @@ and (orientation : landscape) {
   @media all and (max-width: 1200px) and (min-width: 768px) {
   .question-section {
     height: 180%;
-    padding: 0px 50px 50px 50px;
+    padding: 0em  3.125em  3.125em  3.125em;
     text-align: center;
     background: #ff9966;
 }
@@ -483,7 +476,7 @@ and (orientation : landscape) {
  and (max-width: 400px) {
  .meeting-section {
     height: 155%;
-    padding: 3.125em 3.125em 70.125em 3.125em;
+    padding:  2.5em 3.125em 70.125em 3.125em;
     text-align: center;
     background:  #87AFC;
 }
@@ -497,7 +490,7 @@ and (orientation : landscape) {
    
    .meeting-section {
     height: 180%;
-    padding: 20px 50px 50px 50px;
+    padding:  1.25em 3.125em 70.125em 3.125em;
     text-align: center;
     background: #659EC7;
 }
@@ -510,7 +503,7 @@ and (orientation : landscape) {
    
    .meeting-section {
     height: 200%;
-    padding: 20px 50px 50px 50px;
+    padding:  1.25em 3.125em 70.125em 3.125em;
     text-align: center;
     background: #659EC7;
 }
@@ -523,7 +516,7 @@ and (orientation : landscape) {
    
    .meeting-section {
     height: 210%;
-    padding: 20px 50px 50px 50px;
+    padding:  1.25em 3.125em 70.125em 3.125em;
     text-align: center;
     background: #659EC7;
 }
@@ -536,7 +529,7 @@ and (orientation : landscape) {
   {
   .meeting-section {
     height: 110%;
-    padding: 20px 50px 50px 50px;
+    padding:  1.25em 3.125em 70.125em 3.125em;
     text-align: center;
     background: #87AFC7;
 }
@@ -551,7 +544,7 @@ and (orientation : landscape) {
   {
   .meeting-section {
     height: 110%;
-    padding: 20px 50px 50px 50px;
+   padding:  1.25em 3.125em 70.125em 3.125em;
     text-align: center;
     background: #87AFC7;
 }
@@ -575,7 +568,7 @@ and (max-width: 400px) {
 
 .contact-section {
     height: 220%;
-    padding: 0.625em 50px 50px 50px;
+    padding: 0.625em 3.125em 3.125em 3.125em;
     text-align: center;
     background: #ff9933;
 }
@@ -592,7 +585,7 @@ and (max-width: 400px) {
  and (min-width: 400px) {
     .contact-section {
     height: 150%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em 3.125em 3.125em 3.125em
     text-align: center;
     background: #ff9933;
 }
@@ -606,13 +599,13 @@ and (max-width: 400px) {
  {
  .contact-section {
     height: 180%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em 3.125em 3.125em 3.125em;
     text-align: center;
     background: #ffcc33;
  
  }
  .contact-section h3 {
-    font-size:20px;
+    font-size:1.25em
 }
  
  }
@@ -624,13 +617,13 @@ and (max-width: 400px) {
  {
  .contact-section {
     height: 180%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em 3.125em 3.125em 3.125em;
     text-align: center;
     background: #ffcc33;
  
  }
  .contact-section h3 {
-    font-size:20px;
+    font-size:1.25em;
 }
  
  }
@@ -643,7 +636,7 @@ and (max-width: 400px) {
  {
  .contact-section {
     height: 150%;
-    padding: 10px 50px 50px 50px;
+    padding: 0.625em 3.125em 3.125em 3.125em;
     text-align: center;
     background: #ff9933;
 }
@@ -656,22 +649,14 @@ and (max-width: 400px) {
  {
  .contact-section {
     height: 150%;
-    padding: 10px 50px 50px 50px;
+     padding: 0.625em 3.125em 3.125em 3.125em;
     text-align: center;
     background: #ff9933;
 }
  }
  
 
- /* contact1-section*/
-
-.contact1-section {
-    height: 100%;
-    padding: 15px 50px 50px 50px;
-    text-align: center;
-    background: #ff9933;
-}
-
+ 
 
 
    
