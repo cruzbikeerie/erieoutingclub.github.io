@@ -75,13 +75,13 @@ body {
 
 .intro-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
     background: #ffccff;
 }
 
 .join {
-    height: 100%;
+    height: 50%;
     padding-top: 100px;
     text-align: center;
     background: #ffccff;
@@ -96,21 +96,18 @@ body {
 
 
 .meeting-section {
-    height: 100%;
+    height: 50%;
     padding-top: 100px;
     text-align: center;
     background: #ffccff;
 }
 
 .question-section {
-    height: 100%;
+    height: 50%;
     padding-top: 100px;
     text-align: center;
     background: #ffccff;
 }
-
-
-
 
 .contact-section {
     height: 100%;
