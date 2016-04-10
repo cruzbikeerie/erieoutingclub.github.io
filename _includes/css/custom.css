@@ -81,37 +81,37 @@ body {
 }
 
 .join {
-    height: 50%;
-    padding-top: 100px;
+    height: 100%;
+    padding-top:  50px;
     text-align: center;
     background: #ffccff;
 }
 
 .calendar-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top:  50px;
     text-align: center;
     background: #ffccff;
 }
 
 
 .meeting-section {
-    height: 50%;
-    padding-top: 100px;
+    height: 100%;
+    padding-top:  50px;
     text-align: center;
     background: #ffccff;
 }
 
 .question-section {
-    height: 50%;
-    padding-top: 100px;
+    height: 100%;
+    padding-top:  50px;
     text-align: center;
     background: #ffccff;
 }
 
 .contact-section {
     height: 100%;
-    padding-top: 100px;
+    padding-top:  50px;
     text-align: center;
     background: #B8860B
 }
