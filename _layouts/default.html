@@ -12,9 +12,14 @@
       var jumbotron = $(".jumbotron");
 
       $("section").hide();
+      $("body").css("background-color", "#ffccff");
+      $("#" + text1).hide();
+      $(".join-section").hide();
       jumbotron.show();
       $(".intro-section").show();
       $("footer").hide();
+      text = $(event.target).text();
+      text1 = text.toLowerCase();
 
       $(".eoc").click(function() {
         $("body").css("background-color", "#ffccff");
@@ -24,7 +29,7 @@
         $(".intro-section").show();
         $("footer").hide();
         text = $(event.target).text();
-        text1 = text.toLowerCase()
+        text1 = text.toLowerCase();
       });
       $("li").children().eq(1).click(function() {
         $("body").css("background-color", "#ffccff;");
