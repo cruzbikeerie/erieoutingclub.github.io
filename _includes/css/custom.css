@@ -162,7 +162,7 @@ small {
 background-color: white;
 }
 
-#membershipMeeting, #meetingPlace, #meetingDates, #meetingDates1 {
+#membershipMeeting, #meetingPlace, #meetingDates, #meetingDates1, #meetingMonths {
  font-family: Arial, Helvetica, sans-serif;
- font-size:  2em;  
+ font-size:  2em;
 }
