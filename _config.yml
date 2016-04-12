@@ -12,3 +12,6 @@ markdown: kramdown
 highlighter: rouge
 
 exclude: ["README.md", "LICENSE","CNAME", ".gitignore"]
+
+gems:
+  - jekyll-sitemap
