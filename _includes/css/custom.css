@@ -170,3 +170,7 @@ background-color: white;
 #membershipApp {
   color: white;
 }
+
+.centerText {
+   text-align: center 
+}
