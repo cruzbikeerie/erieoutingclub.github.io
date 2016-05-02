@@ -15,5 +15,5 @@ exclude:
     - README.md
     - CNAME
 
-gems:
-  - jekyll-sitemap
+#gems:
+#  - jekyll-sitemap
