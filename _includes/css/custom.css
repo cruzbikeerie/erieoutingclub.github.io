@@ -49,13 +49,6 @@ body {
     background: #B8860B
 }
 
-
-#contactForms {
-  font-size:small;
-  color:#000000;
-  text-decoration:underline;
-}
-
 @media(min-width:767px) {
   .navbar {
       padding: 0.625em 0em;
@@ -67,6 +60,15 @@ body {
   .top-nav-collapse {
       padding: 0em;
   }
+}
+
+
+
+
+#contactForms {
+  font-size:small;
+  color:#000000;
+  text-decoration:underline;
 }
 
 
