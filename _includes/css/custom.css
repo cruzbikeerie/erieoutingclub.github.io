@@ -6,26 +6,6 @@ body {
    font-size: 10px;
 }
 
-#contactForms {
-  font-size:small;
-  color:#000000;
-  text-decoration:underline;
-}
-
-@media(min-width:767px) {
-  .navbar {
-      padding: 0.625em 0em;
-      -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-      -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-      transition: background .5s ease-in-out,padding .5s ease-in-out;
-  }
-
-  .top-nav-collapse {
-      padding: 0em;
-  }
-}
-
-
 .intro-section {
     height: 100%;
     padding-top: 50px;
@@ -68,6 +48,28 @@ body {
     text-align: center;
     background: #B8860B
 }
+
+
+#contactForms {
+  font-size:small;
+  color:#000000;
+  text-decoration:underline;
+}
+
+@media(min-width:767px) {
+  .navbar {
+      padding: 0.625em 0em;
+      -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+      -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+      transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  .top-nav-collapse {
+      padding: 0em;
+  }
+}
+
+
 
 
 h2 {
